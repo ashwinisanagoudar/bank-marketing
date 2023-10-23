@@ -74,14 +74,14 @@ Creating dataframe that store the performance of each model for the final review
 
 `LogisticRegression Model` - Logistic regression model resulted in 90.97% training accuracy, 90.38% test accuracy with 34.49% precision score, 67.53% recall score and 45.66% f1 score.
 `KNeighborsClassifier Model` - KNeighborsClassifier model resulted in 93.24% training accuracy, 89.87% test accuracy with 44.61% precision score, 58.92% recall score and 50.77% f1 score.
-`DecisionTreeClassifier Model` - DecisionTreeClassifier model resulted in 99.99% training accuracy, 88.92% test accuracy with 52.15% precision score, 52.76% recall score and 52.46% f1 score.
+`DecisionTreeClassifier Model` - DecisionTreeClassifier model resulted in 99.99% training accuracy, 88.92% test accuracy with 52.15% precision score, 52.76% recall score and 52.46% f1 score.      
 `SVC Model` - SVC model resulted in 90.27% training accuracy, 89.53% test accuracy with 19.98% precision score, 68.07% recall score and 30.89% f1 score.
 
 ##### Models with Gridsearch and hyperparamters :
 
-`GridSearch-LogisticRegression Model` - Logistic regression model with gridsearch and hyperparamters resulted in 91.04% training accuracy, 90.33% test accuracy with 37.14% precision score, 65.40% recall score and 47.38% f1 score.
-`GridSearch-KNeighborsClassifier Model` - KNeighborsClassifier model with gridsearch and hyperparamters resulted in 91.64% training accuracy, 90.20% test accuracy with 38.64% precision score, 63.40% recall score and 48.01% f1 score.
-`GridSearch-DecisionTreeClassifier Model` - DecisionTreeClassifier model with gridsearch and hyperparamters resulted in 93.0% training accuracy, 90.53% test accuracy with 55.63% precision score, 60.39% recall score and 57.91% f1 score.
+`GridSearch-LogisticRegression Model` - Logistic regression model with gridsearch and hyperparamters resulted in 91.04% training accuracy, 90.33% test accuracy with 37.14% precision score, 65.40% recall score and 47.38% f1 score.   
+`GridSearch-KNeighborsClassifier Model` - KNeighborsClassifier model with gridsearch and hyperparamters resulted in 91.64% training accuracy, 90.20% test accuracy with 38.64% precision score, 63.40% recall score and 48.01% f1 score.    
+`GridSearch-DecisionTreeClassifier Model` - DecisionTreeClassifier model with gridsearch and hyperparamters resulted in 93.0% training accuracy, 90.53% test accuracy with 55.63% precision score, 60.39% recall score and 57.91% f1 score.      
 `GridSearch-SVC Model` - SVC model with gridsearch and hyperparamters resulted in 90.96% training accuracy, 89.93% test accuracy with 29.10% precision score, 65.97% recall score and 40.39% f1 score.
 
 ### Evaluation:
