@@ -12,7 +12,7 @@ The business goal is to build a model that can explain success of a contact, i.e
 To get started with this project, we need to have the following dependecies :
 * Python 3.6+
 * Jupyter Notebook
-* Bank MArketing Dataset
+* Bank Marketing Dataset
 * Python libraries such as NumPy,Pandas,Scikit-learn,matplotlib, seaborn.
 
 ##### Taking following steps to understand the data :
@@ -96,9 +96,9 @@ After the data encoding we can see impact of categorical variables to target var
 
 ##### Prepare Datasets for Model :
 
-Creating train and test datasets after the data encoding, scaling and feature selection.     
-Creating function for cross validation/process the result of the model.       
-Creating dataframe that store the performance of each model for the final review and selection.
+* Creating train and test datasets after the data encoding, scaling and feature selection.        
+* Creating function for cross validation/process the result of the model.         
+* Creating dataframe that store the performance of each model for the final review and selection.
 
 `LogisticRegression Model` - Logistic regression model resulted in 90.97% training accuracy, 90.38% test accuracy with 34.49% precision score, 67.53% recall score and 45.66% f1 score.
 `KNeighborsClassifier Model` - KNeighborsClassifier model resulted in 93.24% training accuracy, 89.87% test accuracy with 44.61% precision score, 58.92% recall score and 50.77% f1 score.
