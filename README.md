@@ -1,7 +1,6 @@
-# bank-marketing
-## Practical Application III: Comparing Classifiers
+# Practical Application III: Bank-Marketing - Comparing Classifiers
 
-#### Overview:
+## Overview:
 
 This data study examines a Portugese banking institution dataset from the UCI Machine Learning repository and predict if the client will subscribe a term deposit. The goal is to compare the performance of the classifiers, namely K Nearest Neighbor, Logistic Regression, Decision Trees, and Support Vector Machines. We will utilize a dataset related to marketing bank products over the telephone.
 
@@ -16,11 +15,11 @@ To get started with this project, we need to have the following dependecies :
 * Bank MArketing Dataset
 * Python libraries such as NumPy,Pandas,Scikit-learn,matplotlib, seaborn.
 
-###### Taking following steps to understand the data :
+##### Taking following steps to understand the data :
 
 Explore the data: Overview of the data, such as the number of records, the number of columns, and the data types of each column and would also look for any patterns or trends in the data.
 
-###### Data Quality Issues :
+##### Data Quality Issues :
 
 * Identify any missing values in the data.
 * Identify any duplicate records in the data.
@@ -30,7 +29,7 @@ Explore the data: Overview of the data, such as the number of records, the numbe
 ##### Data Preparation :
 After our initial exploration and fine tuning of the business understanding, it is time to construct our final dataset prior to modeling. Here, we want to make sure to handle any integrity issues and cleaning, the engineering of new features, any transformations that we believe should happen (scaling, logarithms, normalization, etc.), and general preparation for modeling with sklearn.
 
-###### Data Encoding / Scaling:
+##### Data Encoding / Scaling:
 The following encoding techniques were applied to the categorical variables:
 
 * Ordinal Encoding
@@ -40,25 +39,25 @@ The following encoding techniques were applied to the categorical variables:
 ### Data Visualization :
 
 
-###### Visualizing Count/Percentage of customers subscribed to campaign
+##### Visualizing Count/Percentage of customers subscribed to campaign
 
 ![image](images/customer_subcription.png)
 
-###### Plotting distribution of independent variables
+##### Plotting distribution of independent variables
 
 ![image](images/distribution_independent_var.png)
 
-###### Plotting distribution of continuous variables
+##### Plotting distribution of continuous variables
 
 ![image](images/distribution_continuous_var.png)
 
-###### Visualizing data correlation using heatmap.
+##### Visualizing data correlation using heatmap.
 
 ![image](images/heatmap.png)
 
 We can see that duration and previous have positive correlation while nr.employed, euribor3m, pdays and emp.var.rate have negative correlation.
 
-###### Visualizing data correlation to the target variable.
+##### Visualizing data correlation to the target variable.
 
 ![image](images/corr_target_var.png)
 
@@ -67,18 +66,18 @@ After the data encoding we can see impact of categorical variables to target var
 
 ### Modeling :
 
-###### Prepare Datasets for Model :
+##### Prepare Datasets for Model :
 
 Creating train and test datasets after the data encoding, scaling and feature selection.
 Creating function for cross validation/process the result of the model.
 Creating dataframe that store the performance of each model for the final review and selection.
 
-`LogisticRegression	 Model` - Logistic regression model resulted in 90.97% training accuracy, 90.38% test accuracy with 34.49% precision score, 67.53% recall score and 45.66% f1 score.
+`LogisticRegression Model` - Logistic regression model resulted in 90.97% training accuracy, 90.38% test accuracy with 34.49% precision score, 67.53% recall score and 45.66% f1 score.
 `KNeighborsClassifier Model` - KNeighborsClassifier model resulted in 93.24% training accuracy, 89.87% test accuracy with 44.61% precision score, 58.92% recall score and 50.77% f1 score.
 `DecisionTreeClassifier Model` - DecisionTreeClassifier model resulted in 99.99% training accuracy, 88.92% test accuracy with 52.15% precision score, 52.76% recall score and 52.46% f1 score.
-`SVC Model` - DecisionTreeClassifier model resulted in 90.27% training accuracy, 89.53% test accuracy with 19.98% precision score, 68.07% recall score and 30.89% f1 score.
+`SVC Model` - SVC model resulted in 90.27% training accuracy, 89.53% test accuracy with 19.98% precision score, 68.07% recall score and 30.89% f1 score.
 
-###### Models with Gridsearch and hyperparamters :
+##### Models with Gridsearch and hyperparamters :
 
 `GridSearch-LogisticRegression Model` - Logistic regression model with gridsearch and hyperparamters resulted in 91.04% training accuracy, 90.33% test accuracy with 37.14% precision score, 65.40% recall score and 47.38% f1 score.
 `GridSearch-KNeighborsClassifier Model` - KNeighborsClassifier model with gridsearch and hyperparamters resulted in 91.64% training accuracy, 90.20% test accuracy with 38.64% precision score, 63.40% recall score and 48.01% f1 score.
